@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cssMemSlider</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="slider">
+    <div class="wrapper">
+      <input  class="slider__input" checked type="radio" name="slide" id="s1">
+      <input  class="slider__input" type="radio" name="slide" id="s2">
+      <input  class="slider__input" type="radio" name="slide" id="s3">
+      <input  class="slider__input" type="radio" name="slide" id="s4">
+      <div class="carousel">
+        <div class="carousel__wrapper">
+          <article>
+            <img src="./images/slide1.jpg" alt="slide1">
+          </article>
+          <article>
+            <img src="./images/slide2.jpg" alt="slide2">
+          </article>
+          <article>
+            <img src="./images/slide3.jpg" alt="slide3">
+          </article>
+          <article>
+            <img src="./images/slide4.jpg" alt="slide4">
+          </article>
+        </div>
+      </div>
+      <div class="carousel__content">
+        <div class="content__wrapper">
+          <div class="content">
+            <p class="content__title">А разговоров то было</p>
+            <p class="content__title"> Что делаешь? Погружен в питон!</p>
+            <p class="content__title">Не баг, а фича!</p>
+            <p class="content__title">Конфликт версий</p>
+          </div>
+        </div>
+        <div class="carousel__dots">
+          <label for="s1">
+            <span class="carousel__dot"></span>
+          </label>
+          <label for="s2">
+            <span class="carousel__dot"></span>
+          </label>
+          <label for="s3">
+            <span class="carousel__dot"></span>
+          </label>
+          <label for="s4">
+            <span class="carousel__dot"></span>
+          </label>
+        </div>
+      </div>
+    </div>  
+  </section>
+</body>
+</html>
